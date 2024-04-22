@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Mi primera app</string>
+    <string name="titulo1">App Ingles</string>
+    <string name="botonsiguiente">siguiente</string>
+    <string name="titulomenu">Menú</string>
+    <string name="titulocolor">colores</string>
+    <string name="tituloanimal">animales</string>
+    <string name="titulofruta">frutas</string>
+    <string name="animalgato">gato</string>
+    <string name="animalperro">perro</string>
+    <string name="animalpato">pato</string>
+    <string name="colorosado">rosado</string>
+    <string name="colorlila">lila</string>
+    <string name="colorazul">azul</string>
+    <string name="frutafresa">fresa</string>
+    <string name="frutauva">uva</string>
+    <string name="frutamango">mango</string>
+    <string name="sonidoGato">play</string>
+    <string name="juego">jugar</string>
+    <string name=""
+</resources>

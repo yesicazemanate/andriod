@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuAp"
+    android:background="@color/black">
+
+    <TextView
+        android:id="@+id/txtmenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titulomenu"
+        android:textSize="50dp"
+        android:layout_gravity="center"
+        android:fontFamily="serif-monospace"
+        android:textColor="@color/white"
+       android:layout_marginTop="40dp"     >
+
+    </TextView>
+
+    <Button
+        android:id="@+id/btnanimales"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tituloanimal"
+        android:layout_marginTop="70dp"
+        android:textSize="50dp"
+        android:layout_gravity="center"
+        >
+
+
+    </Button>
+
+    <Button
+        android:id="@+id/btncolores"
+        android:textColor="@color/white"
+        android:layout_width="254dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/titulocolor"
+        android:textSize="50dp"
+        android:layout_gravity="center"
+        ></Button>
+
+    <Button
+        android:id="@+id/btnfrutas"
+        android:textColor="@color/white"
+        android:layout_width="254dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/titulofruta"
+        android:textSize="50dp"
+        android:layout_gravity="center"
+        ></Button>
+
+    <Button
+        android:id="@+id/btnjuego"
+        android:textColor="@color/white"
+        android:layout_width="254dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/juego"
+        android:textSize="50dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/rosadolavanda"
+        ></Button>
+
+</LinearLayout>

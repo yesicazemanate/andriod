@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/black">
+
+    <TextView
+        android:id="@+id/txtTitulo1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo1"
+        android:textSize="40sp"
+        android:textColor="@color/azulcrayola"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif-condensed-light"
+        android:layout_margin="40dp"
+        >
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/imgPrincipal"
+        android:layout_width="346dp"
+        android:layout_height="357dp"
+        android:layout_gravity="center"
+        android:src="@mipmap/jungkook">
+
+    </ImageView>
+
+    <Button
+android:id="@+id/btnSiguiente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="170dp"
+        android:text="@string/botonsiguiente"></Button>
+
+</LinearLayout>

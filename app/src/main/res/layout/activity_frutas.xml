@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Frutas"
+    android:orientation="vertical"
+    android:background="@color/black">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titulofruta"
+        android:textSize="70dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/white">
+
+
+
+    </TextView>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="20dp"
+
+        >ss
+
+        <ImageView
+            android:id="@+id/imagefresa"
+            android:layout_width="203dp"
+            android:layout_height="140dp"
+            android:src="@drawable/fresa"
+            android:layout_marginLeft="40dp"
+
+            >
+
+        </ImageView>
+        <TextView
+            android:id="@+id/textfresa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/frutafresa"
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            android:textColor="@color/white"
+            >
+
+
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp"
+        >
+
+        <ImageView
+            android:id="@+id/imageuva"
+            android:layout_width="203dp"
+            android:layout_height="140dp"
+            android:src="@drawable/uva"
+            android:layout_marginLeft="40dp"
+            >
+
+        </ImageView>
+        <TextView
+            android:id="@+id/textuva"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/frutauva"
+            android:textSize="50dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/white"
+            >
+
+        </TextView>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:id="@+id/imagemango"
+            android:layout_width="203dp"
+            android:layout_height="140dp"
+            android:src="@drawable/mango"
+            android:layout_marginLeft="40dp"
+            >
+
+        </ImageView>
+        <TextView
+            android:id="@+id/textmango"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/frutamango"
+            android:textSize="40dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/white"
+            >
+
+        </TextView>
+
+    </LinearLayout>
+
+</LinearLayout>

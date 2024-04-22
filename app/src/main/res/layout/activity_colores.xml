@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".Colores">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titulocolor"
+        android:textSize="70dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/white">
+
+
+
+    </TextView>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp"
+        >
+
+        <ImageView
+            android:id="@+id/imagelila"
+            android:layout_width="203dp"
+            android:layout_height="140dp"
+            android:src="@drawable/lilac"
+            android:layout_marginLeft="40dp"
+            >
+
+        </ImageView>
+        <TextView
+            android:id="@+id/textlila"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/colorlila"
+            android:textSize="50dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/white"
+            >
+
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageazul"
+            android:layout_width="144dp"
+            android:layout_height="140dp"
+            android:layout_marginLeft="70dp"
+            android:src="@drawable/azul">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/textazul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="@string/colorazul"
+            android:textColor="@color/white"
+            android:textSize="50dp">
+
+        </TextView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:id="@+id/imagerosa"
+            android:layout_width="203dp"
+            android:layout_height="140dp"
+            android:src="@drawable/pink"
+            android:layout_marginLeft="40dp"
+            >
+
+        </ImageView>
+        <TextView
+            android:id="@+id/textrosa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/colorosado"
+            android:textSize="40dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/white"
+            >
+
+        </TextView>
+
+    </LinearLayout>
+</LinearLayout>
