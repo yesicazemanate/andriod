@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pregunta4"
+    android:orientation="vertical"
+    android:background="@color/black"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pregunta1"
+            android:layout_gravity="center"
+            android:textSize="40dp"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/white"
+            >
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="60dp"
+            android:textColor="@color/rosadolavanda"
+            android:layout_margin="5dp"
+            android:text="@string/dog"
+            >
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="40dp"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/white"
+            android:text="@string/interrogacion">
+
+        </TextView>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imagenDuck"
+        android:layout_width="188dp"
+        android:layout_height="188dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:src="@drawable/pato"></ImageView>
+
+    <ImageView
+        android:id="@+id/imagenDog"
+        android:layout_margin="10dp"
+        android:layout_width="188dp"
+        android:layout_height="188dp"
+        android:src="@drawable/perro"
+        android:layout_gravity="center"></ImageView>
+
+    <ImageView
+        android:id="@+id/imagenCat"
+        android:layout_margin="10dp"
+        android:layout_width="188dp"
+        android:layout_height="138dp"
+        android:layout_gravity="center"
+        android:src="@drawable/gato"></ImageView>
+
+</LinearLayout>

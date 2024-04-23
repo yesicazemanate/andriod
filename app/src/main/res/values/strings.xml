@@ -17,5 +17,21 @@
     <string name="frutamango">mango</string>
     <string name="sonidoGato">play</string>
     <string name="juego">jugar</string>
+    <string name="pregunta1">¿Cuál es </string>
+    <string name="interrogacion"> ?</string>
+    <string name="pregunta21">¿Cómo se dice</string>
+    <string name="pregunta22"> UVA</string>
+    <string name="pregunta23"> en ingles?</string>
+    <string name="grape">Grape</string>
+    <string name="strawberry">Strawberry</string>
+    <string name="mango">Mango</string>
+   <string name="duck">Duck</string>
+    <string name="dog">Dog</string>
+    <string name="cat">Cat</string>
+    <string name="pink">Pink</string>
+    <string name="español">en español?</string>
+    <string name="blue">Blue</string>
+    <string name="lilac">Lilac</string>
+
 
 </resources>

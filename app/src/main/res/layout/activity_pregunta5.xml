@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pregunta5"
+    android:orientation="vertical"
+    android:background="@color/black">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pregunta21"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:textSize="24dp"
+
+            >
+
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pink"
+            android:textSize="38dp"
+            android:textColor="@color/rosadolavanda"
+            android:layout_margin="5dp"
+            >
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/español"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:textSize="24dp"
+
+            >
+
+
+        </TextView>
+
+    </LinearLayout>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pink"
+        android:layout_gravity="center">
+
+    </ImageView>
+    <LinearLayout
+
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@color/rosadolavanda">
+
+        <TextView
+            android:id="@+id/textrosado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/colorosado"
+            android:textColor="@color/white"
+            android:textSize="40dp"
+            android:textStyle="bold">
+
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:background="@color/rosadolavanda"
+
+        android:layout_marginTop="40dp"
+        android:layout_width="215dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <TextView
+            android:id="@+id/textblue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/colorazul"
+            android:textColor="@color/white"
+            android:textSize="40dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold">
+
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:background="@color/rosadolavanda"
+
+        android:layout_marginTop="40dp"
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal">
+        <TextView
+            android:id="@+id/textlilac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/colorlila"
+            android:textColor="@color/white"
+            android:textSize="40dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold">
+
+
+        </TextView>
+    </LinearLayout>
+
+</LinearLayout>

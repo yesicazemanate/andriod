@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pregunta2"
+    android:orientation="vertical"
+    android:background="@color/black">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pregunta21"
+        android:textColor="@color/white"
+        android:textSize="28dp">
+
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pregunta22"
+        android:textSize="35dp"
+        android:textColor="@color/rosadolavanda"
+        android:layout_margin="5dp"
+        >
+
+    </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pregunta23"
+            android:textColor="@color/white"
+            android:textSize="28dp"></TextView>
+
+    </LinearLayout>
+    <ImageView
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/uva"
+        android:layout_gravity="center">
+
+    </ImageView>
+
+    <LinearLayout
+
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@color/rosadolavanda">
+
+        <TextView
+            android:id="@+id/textstrawberry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/strawberry"
+            android:textColor="@color/white"
+            android:textSize="40dp"
+            android:textStyle="bold">
+
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:background="@color/rosadolavanda"
+
+        android:layout_marginTop="40dp"
+        android:layout_width="215dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <TextView
+            android:id="@+id/grape"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/grape"
+            android:textColor="@color/white"
+            android:textSize="40dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold">
+
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:background="@color/rosadolavanda"
+
+        android:layout_marginTop="40dp"
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal">
+        <TextView
+            android:id="@+id/textmangoes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mango"
+            android:textColor="@color/white"
+            android:textSize="40dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold">
+
+
+        </TextView>
+    </LinearLayout>
+
+</LinearLayout>
